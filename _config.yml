@@ -54,7 +54,7 @@ round-avatar: true
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
  # email: "someone@example.com"
- # rss: true  # remove this line if you don't want to show an RSS link at the bottom
+  rss: true  # remove this line if you don't want to show an RSS link at the bottom
  # facebook: deanattali
   github: thenose2003
  # twitter: daattali
@@ -88,7 +88,7 @@ social-network-links:
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-# rss-description: This website is a virtual proof that I'm awesome
+ rss-description: A website to keep up to date on M7 gamers gaming!
 
 ###########################
 # --- General options --- #
