@@ -21,9 +21,12 @@ author: The Nose
 
 navbar-links:
   About Me: "aboutme"
+  Legit Leaderboard: "legitleaderboard"
+  Cheater Leaderboard: "cheaterleaderboard"
   Resources:
     - YouTube: "https://www.youtube.com/@NoseThe"
     - Discord: "https://discord.com/invite/cc9fCgB"
+    - Rules: "rules"
 
 ################
 # --- Logo --- #
