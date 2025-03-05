@@ -6,8 +6,6 @@ subtitle: The Place to get all your Full Legit Party POVs
 <!-- Link to another page -->
 <p><a href="https://thenose2003.github.io/legitleaderboard/">Full Legit Party Leaderboard</a></p>
 
-<ul>
-{% for post in site.categories.legitparty %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+{% for post in site.categories.legitPlayer %}
+- [{{ post.title }}]({{ post.url }})
 {% endfor %}
-</ul>
