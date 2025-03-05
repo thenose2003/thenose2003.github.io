@@ -10,10 +10,10 @@
 ############################
 
 # Name of website
-title: M7 Leaderboard
+title: My website
 
 # Your name to show in the footer
-author: The Nose
+author: "The Nose"
 
 ###############################################
 # --- List of links in the navigation bar --- #
@@ -23,16 +23,17 @@ navbar-links:
   Legit Feed: "legitfeed"
   Cheater Feed: "cheaterfeed"
   Players: "players"
+  Rules: "rules"
+  AboutMe: "aboutme"
   Resources:
     - Tech Guides: "tech"
     - My YouTube: "https://www.youtube.com/@NoseThe"
     - My Discord: "https://discord.com/invite/cc9fCgB"
-  Rules: "rules"
-  About Me: "aboutme"
 
 ################
 # --- Logo --- #
 ################
+
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
