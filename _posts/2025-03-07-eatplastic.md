@@ -2,7 +2,7 @@
 layout: post
 title: eatplastic
 subtitle: one of the goats
-tags: [player, legit]
+tags: [legit, player]
 ---
 
 # Stats and Contacts
