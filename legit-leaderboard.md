@@ -1,6 +1,6 @@
 ---
 layout: leaderboard
-title: "Players"
-subtitle: "A place to find players and the runs they were a part of."
+title: "Legit Leaderboard"
+subtitle: "Time Leaderboard of All Saved Runs Tagged with Legit-Run"
 tag_filter: "legit-run"
 ---
