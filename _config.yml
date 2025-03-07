@@ -10,21 +10,27 @@
 ############################
 
 # Name of website
-title: My website
+title: M7 Leaderboard
 
 # Your name to show in the footer
-author: Some Person
+author: NoseThe
 
 ###############################################
 # --- List of links in the navigation bar --- #
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
+  Legit:
+    - Leaderboard: "legit-leaderboard"
+    - Runs: "legit-runs"
+  TAS:
+    - Leaderboard: "TAS-leaderboard"
+    - Runs: "TAS-runs"
+  Players: "players"
   Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+    - Rules: "rules"
+    - Tech: "tech"
+  About Me: "aboutme"
 
 ################
 # --- Logo --- #
@@ -50,14 +56,14 @@ round-avatar: true
 # You can change the order that they show up on the page by changing the order here.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "someone@example.com"
+  # email: "someone@example.com"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
-  patreon: DeanAttali
-  youtube: "@daattali"
-  whatsapp: 15551212
+  # facebook: deanattali
+  github: thenose2003
+#  twitter: daattali
+#  patreon: DeanAttali
+  youtube: "@NoseThe"
+#  whatsapp: 15551212
 #  medium: yourname
 #  reddit: yourname or r/yoursubreddit
 #  linkedin: daattali
@@ -68,7 +74,7 @@ social-network-links:
 #  spotify: yourname
 #  telephone: +14159998888
 #  steam: deanat78
-#  twitch: yourname
+  twitch: nose_the
 #  yelp: yourname
 #  telegram: yourname
 #  calendly: yourname
@@ -76,7 +82,7 @@ social-network-links:
 #  bluesky: yourname
 #  ORCID: your ORCID ID
 #  google-scholar: your google scholar
-#  discord: "invite_code" or "users/userid" or "invite/invite_code"
+  discord: "zFp62qJt6e" # or "users/userid" or "invite/invite_code"
 #  kaggle: yourname
 #  hackerrank: yourname
 #  gitlab: yourname
@@ -85,7 +91,7 @@ social-network-links:
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-rss-description: This website is a virtual proof that I'm awesome
+rss-description: A website for keeping track of M7 runs published on YouTube.
 
 ###########################
 # --- General options --- #
@@ -100,7 +106,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
+# url-pretty: "MyWebsite.com"
 
 # Add the website title to the title of every page
 title-on-all-pages: true
@@ -134,17 +140,29 @@ navbar-var-length: false
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-page-col: "#FFFFFF"
-text-col: "#404040"
-link-col: "#008AFF"
-hover-col: "#0085A1"
-navbar-col: "#EAEAEA"
-navbar-text-col: "#404040"
-navbar-border-col: "#DDDDDD"
-footer-col: "#EAEAEA"
-footer-text-col: "#777777"
-footer-link-col: "#404040"
-footer-hover-col: "#0085A1"
+#page-col: "#FFFFFF"
+#text-col: "#404040"
+#link-col: "#008AFF"
+#hover-col: "#0085A1"
+#navbar-col: "#EAEAEA"
+#navbar-text-col: "#404040"
+#navbar-border-col: "#DDDDDD"
+#footer-col: "#EAEAEA"
+#footer-text-col: "#777777"
+#footer-link-col: "#404040"
+#footer-hover-col: "#0085A1"
+page-col: "#121212"         # Dark background  
+text-col: "#E0E0E0"         # Light gray text for readability  
+link-col: "#4DA3FF"         # Softer blue for links  
+hover-col: "#66C2FF"        # Slightly lighter blue for hover  
+navbar-col: "#1E1E1E"       # Dark navbar  
+navbar-text-col: "#E0E0E0"  # Light text in navbar  
+navbar-border-col: "#333333" # Subtle border  
+footer-col: "#1E1E1E"       # Dark footer  
+footer-text-col: "#BBBBBB"  # Slightly lighter gray for footer text  
+footer-link-col: "#E0E0E0"  # Light links in footer  
+footer-hover-col: "#66C2FF" # Same hover effect as main links  
+
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
