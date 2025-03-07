@@ -20,17 +20,13 @@ author: NoseThe
 ###############################################
 
 navbar-links:
-  Legit   Runs:
-    - Leaderboard: "legit-leaderboard"
-    - Runs: "legit-runs"
-  TAS   Runs:
-    - Leaderboard: "TAS-leaderboard"
-    - Runs: "TAS-runs"
+  Legit Leaderboard: "legit-leaderboard"
+  TAS Leaderboard: "TAS-leaderboard"
   Players: "players"
   Resources:
     - Rules: "rules"
     - Tech: "tech"
-  About Me: "aboutme"
+    - About Me: "aboutme"
 
 ################
 # --- Logo --- #
