@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "[5:00] [Mage] The Nose POV"
-subtitle: "[PB Run] Naddorik Perm"
+title: "[5:00] [Mage] The Nose"
+subtitle: NoseThe, Premeatheouse, JokeJokeJoke, JadeMining, Fiskefillet
 tags: [pb-run, mage, tntpearl, legit-run]
 time: 300
 ---
