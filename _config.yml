@@ -140,28 +140,17 @@ navbar-var-length: false
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-#page-col: "#FFFFFF"
-#text-col: "#404040"
-#link-col: "#008AFF"
-#hover-col: "#0085A1"
-#navbar-col: "#EAEAEA"
-#navbar-text-col: "#404040"
-#navbar-border-col: "#DDDDDD"
-#footer-col: "#EAEAEA"
-#footer-text-col: "#777777"
-#footer-link-col: "#404040"
-#footer-hover-col: "#0085A1"
-page-col: "#121212"         # Dark background  
-text-col: "#E0E0E0"         # Light gray text for readability  
-link-col: "#4DA3FF"         # Softer blue for links  
-hover-col: "#66C2FF"        # Slightly lighter blue for hover  
-navbar-col: "#1E1E1E"       # Dark navbar  
-navbar-text-col: "#E0E0E0"  # Light text in navbar  
-navbar-border-col: "#333333" # Subtle border  
-footer-col: "#1E1E1E"       # Dark footer  
-footer-text-col: "#BBBBBB"  # Slightly lighter gray for footer text  
-footer-link-col: "#E0E0E0"  # Light links in footer  
-footer-hover-col: "#66C2FF" # Same hover effect as main links  
+page-col: "#FFFFFF"
+text-col: "#404040"
+link-col: "#008AFF"
+hover-col: "#0085A1"
+navbar-col: "#EAEAEA"
+navbar-text-col: "#404040"
+navbar-border-col: "#DDDDDD"
+footer-col: "#EAEAEA"
+footer-text-col: "#777777"
+footer-link-col: "#404040"
+footer-hover-col: "#0085A1"
 
 
 # Alternatively, the navbar, footer, and page background can be set to an image
