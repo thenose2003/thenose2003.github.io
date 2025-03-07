@@ -1,5 +1,6 @@
 ---
 layout: filtered
 title: "Players"
-tag_filter: "books"
+subtitle: "A place to find players and the runs they were a part of."
+tag_filter: "player"
 ---
