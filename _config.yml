@@ -20,10 +20,10 @@ author: NoseThe
 ###############################################
 
 navbar-links:
-  Legit:
+  Legit Runs:
     - Leaderboard: "legit-leaderboard"
     - Runs: "legit-runs"
-  TAS:
+  TAS Runs:
     - Leaderboard: "TAS-leaderboard"
     - Runs: "TAS-runs"
   Players: "players"
