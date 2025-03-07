@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "[5:17] [Healer] The Nose POV"
-tags: [healer, legit-run]
+title: "[5:17] [Healer] The Nose"
+subtitle: NoseThe, RIPinPepperonis, Miniwaffles123, eatplastic, Rvval
+tags: [casual, healer, legit-run]
 time: 317
 ---
 
