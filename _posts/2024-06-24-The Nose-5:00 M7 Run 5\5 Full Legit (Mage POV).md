@@ -3,6 +3,7 @@ layout: post
 title: "[5:00] [Mage] The Nose POV"
 subtitle: "[PB Run] Naddorik Perm"
 tags: [pb-run, mage, tntpearl, legit-run]
+time: 300
 ---
 
 # 5:00 M7 Run 5/5 Full Legit (Mage POV)
