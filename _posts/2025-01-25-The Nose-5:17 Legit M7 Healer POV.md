@@ -9,7 +9,7 @@ tags: [healer, legit-run]
 
 # Players
 - [NoseThe](https://thenose2003.github.io/2025-03-06-NoseThe/)
-- RIPinPepperonis
+- [RIPinPepperonis](https://thenose2003.github.io/2025-03-07-RIPinPepperonis/)
 - Miniwaffles123
 - [eatplastic](https://thenose2003.github.io/2025-03-07-eatplastic/)
 - Rvval
