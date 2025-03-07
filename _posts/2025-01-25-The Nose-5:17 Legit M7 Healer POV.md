@@ -11,5 +11,5 @@ tags: [healer, legit-run]
 - [NoseThe](https://thenose2003.github.io/2025-03-06-NoseThe/)
 - RIPinPepperonis
 - Miniwaffles123
-- eatplastic
+- [eatplastic](https://thenose2003.github.io/2025-03-07-eatplastic/)
 - Rvval
