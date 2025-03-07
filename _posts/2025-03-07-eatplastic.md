@@ -6,10 +6,10 @@ tags: [player, legit]
 ---
 
 # Stats and Contacts
-SkyCrypt: [eatplastic]([https://sky.shiiyu.moe/stats/NoseThe/Raspberry](https://sky.shiiyu.moe/stats/eatplastic/Mango))  
+SkyCrypt: [eatplastic](https://sky.shiiyu.moe/stats/eatplastic/Mango)  
 Discord: eatplastic  
-YouTube: [@eatplastic]([https://www.youtube.com/@NoseThe](https://www.youtube.com/@eatplastic))  
-Twitch: [eatplastic]([https://www.twitch.tv/nose_the](https://www.twitch.tv/eatplastic))  
+YouTube: [@eatplastic](https://www.youtube.com/@eatplastic)  
+Twitch: [eatplastic](https://www.twitch.tv/eatplastic)  
 
 # Runs
 ---  
