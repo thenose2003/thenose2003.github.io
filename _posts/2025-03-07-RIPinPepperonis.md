@@ -2,7 +2,7 @@
 layout: post
 title: RIPinPepperonis
 subtitle: hey its the guy from the finder partys
-tags: [player, legit]
+tags: [legit, player]
 ---
 
 # Stats and Contacts
