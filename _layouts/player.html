@@ -5,11 +5,11 @@ layout: page
 {{ content }}
 
 {% assign posts = paginator.posts | default: site.posts %}
-{% assign player_name = page.player_name %}
+{% assign player_name = page.player %}
 
 {% assign filtered_posts = posts | where_exp: "post", "post.tags contains 'legit-run' or post.tags contains 'tas-run'" %}
 {% if player_name %}
-  {% assign filtered_posts = filtered_posts | where_exp: "post", "post.player contains player_name" %}
+  {% assign filtered_posts = filtered_posts | where_exp: "post", "post.player == player_name" %}
 {% endif %}
 
 <ul class="posts-list list-unstyled" role="list">
