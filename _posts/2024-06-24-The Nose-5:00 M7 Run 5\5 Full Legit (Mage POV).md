@@ -13,7 +13,7 @@ players: [NoseThe, Premeatheouse, JokeJokeJoke, JadeMining, Fiskefillet]
 
 # Players
 - [NoseThe](https://thenose2003.github.io/2025-03-06-NoseThe/)
-- Premeatheouse
-- JokeJokeJoke
-- JadeMining
-- Fiskefillet
+- [Premeatheouse](https://thenose2003.github.io/2025-03-13-Premeatheouse/)
+- [JokeJokeJoke](https://thenose2003.github.io/2025-03-14-JokeJokeJoke/)
+- [JadeMining](https://thenose2003.github.io/2025-03-14-JadeMining/)
+- [Fiskefillet](https://thenose2003.github.io/2025-03-14-Fiskefillet/)
