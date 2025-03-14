@@ -10,7 +10,7 @@ layout: page
 {% assign run_posts = legit_posts | concat: tas_posts %}
 
 {% if player_name %}
-  {% assign filtered_posts = run_posts | where: "player", player_name %}
+  {% assign filtered_posts = run_posts | where: "players", player_name %}
 {% else %}
   {% assign filtered_posts = run_posts %}
 {% endif %}
