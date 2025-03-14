@@ -4,6 +4,7 @@ title: "[5:17] [Healer] The Nose"
 subtitle: NoseThe, RIPinPepperonis, Miniwaffles123, eatplastic, Rvval
 tags: [casual, healer, legit-run]
 time: 317
+players: [NoseThe, RIPinPepperonis, MiniWaffles123, eatplastic, Rvval]
 ---
 
 # 5:17 Legit M7 Healer POV
