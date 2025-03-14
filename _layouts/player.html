@@ -5,7 +5,7 @@ layout: page
 {{ content }}
 
 {% assign posts = paginator.posts | default: site.posts %}
-{% assign player_name = page.player_name %}
+{% assign player_name = page.player %}
 
 {% assign legit_posts = posts | where: "tags", "legit-run" %}
 {% assign tas_posts = posts | where: "tags", "tas-run" %}
