@@ -6,7 +6,7 @@ layout: page
 
 {% assign posts = paginator.posts | default: site.posts %}
 {% assign tag_to_filter = page.tag_filter %}
-{% assign player_name = page.player_name %}
+{% assign player_name = page.player %}
 
 {% if tag_to_filter or player_name %}
   {% assign filtered_posts = posts | where_exp: "post", "post.tags contains 'legit-run' or post.tags contains 'tas-run'" %}
