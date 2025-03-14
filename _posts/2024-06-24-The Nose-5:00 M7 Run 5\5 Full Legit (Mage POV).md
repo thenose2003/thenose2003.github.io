@@ -4,6 +4,7 @@ title: "[5:00] [Mage] The Nose"
 subtitle: NoseThe, Premeatheouse, JokeJokeJoke, JadeMining, Fiskefillet
 tags: [pb-run, mage, tntpearl, legit-run]
 time: 300
+players: [NoseThe, Premeatheouse, JokeJokeJoke, JadeMining, Fiskefillet]
 ---
 
 # 5:00 M7 Run 5/5 Full Legit (Mage POV)
