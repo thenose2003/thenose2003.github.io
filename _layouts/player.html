@@ -7,12 +7,10 @@ layout: page
 {% assign posts = paginator.posts | default: site.posts %}
 {% assign player_name = page.player %}
 
-{% assign legit_posts = posts | where: "tags", "legit-run" %}
-{% assign tas_posts = posts | where: "tags", "tas-run" %}
-{% assign filtered_posts = legit_posts | concat: tas_posts %}
+{% assign filtered_posts = posts | where_exp: "post", "post.tags contains 'legit-run' or post.tags contains 'tas-run'" %}
 
 {% if player_name %}
-  {% assign filtered_posts = filtered_posts | where_exp: "post", "post.player contains player_name" %}
+  {% assign filtered_posts = filtered_posts | where_exp: "post", "post.player == player_name" %}
 {% endif %}
 
 <ul class="posts-list list-unstyled" role="list">
