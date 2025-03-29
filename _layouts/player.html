@@ -27,7 +27,7 @@ layout: page
         .then(data => {
           if (data.username) {
             playerNameElement.innerText = data.username;
-            document.title = data.username;
+            data.title = data.username;
           }
         })
         .catch(error => console.error("Error fetching IGN:", error));
