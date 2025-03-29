@@ -16,7 +16,24 @@ layout: page
 {% else %}
   {% assign filtered_posts = run_posts %}
 {% endif %}
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const playerNameElement = document.getElementById("player-name");
+    const uuid = playerNameElement.innerText.trim();
 
+    if (uuid.length === 32 || uuid.length === 36) {
+      fetch(`https://api.ashcon.app/mojang/v2/user/${uuid}`)
+        .then(response => response.json())
+        .then(data => {
+          if (data.username) {
+            playerNameElement.innerText = data.username;
+            document.title = data.username;
+          }
+        })
+        .catch(error => console.error("Error fetching IGN:", error));
+    }
+  });
+</script>
 <ul class="posts-list list-unstyled" role="list">
   {% for post in filtered_posts %}
   <li class="post-preview">
