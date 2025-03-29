@@ -128,23 +128,25 @@ layout: page
 
 <script>
   document.addEventListener("DOMContentLoaded", async () => {
-    const titleElements = document.querySelectorAll(".post-title");
+  const titleElements = document.querySelectorAll(".post-title");
 
-    titleElements.forEach(async (element) => {
-      const uuid = element.getAttribute("data-uuid");
+  titleElements.forEach(async (element) => {
+    const uuid = element.getAttribute("data-uuid");
 
-      if (uuid) {
-        try {
-          const response = await fetch(`https://api.ashcon.app/mojang/v2/user/${uuid}`);
-          if (!response.ok) throw new Error("Failed to fetch IGN");
+    if (uuid) {
+      element.textContent = "Loading..."; // Set initial text
 
-          const data = await response.json();
-          element.textContent = data.username; // Set title to the IGN
-        } catch (error) {
-          console.error("Error fetching IGN:", error);
-          element.textContent = "Unknown Player"; // Fallback
-        }
+      try {
+        const response = await fetch(`https://api.ashcon.app/mojang/v2/user/${uuid}`);
+        if (!response.ok) throw new Error("Failed to fetch IGN");
+
+        const data = await response.json();
+        element.textContent = data.username; // Set title to the IGN
+      } catch (error) {
+        console.error("Error fetching IGN:", error);
+        element.textContent = "Unknown Player"; // Fallback
       }
-    });
+    }
   });
+});
 </script>
