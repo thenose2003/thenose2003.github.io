@@ -17,49 +17,81 @@
 {% endif %}
 
 <header class="header-section {% if page.cover-img %}has-img{% endif %}">
-<div class="intro-header {% if page.cover-img %} big-img {% endif %}">
-  {% if page.cover-img or page.title %}
-  <div class="container-md">
-    <div class="row">
-      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
-        <div class="{{ include.type }}-heading">
-          <h1>{% if page.title %}{{ page.title | strip_html }}{% else %}<br/>{% endif %}</h1>
-          {% if page.subtitle %}
-            {% if include.type == "page" %}
-              <hr class="small">
-              <span class="{{ include.type }}-subheading">{{ page.subtitle | strip_html }}</span>
-            {% else %}
-              <h2 class="{{ include.type }}-subheading">{{ page.subtitle | strip_html }}</h2>
-            {% endif %}
-          {% endif %}
-          
-          {% if include.type == "post" %} 
-            {% if page.author %}
-              By <strong>{{ page.author | strip_html }}</strong><br>
-            {% endif%}
-            <span class="post-meta">Posted on {{ page.date | date: date_format }}</span>
-            {% if page.last-updated %}
-              <span class="post-meta">
-                <span class="d-none d-md-inline middot">&middot;</span>
-                Last updated {{ page.last-updated | date: date_format }}
-              </span>
-            {% endif %}
-            {% if page.readtime %}
-              {% include readtime.html %}
-            {% endif %}
-          {% endif %}
+  <div class="intro-header {% if page.cover-img %} big-img {% endif %}">
+    {% if page.cover-img or page.title %}
+      <div class="container-md">
+        <div class="row">
+          <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+            <div class="{{ include.type }}-heading">
+              <h1 id="page-title">
+                {% if page.uuid %}
+                  <span id="loading-title">Loading...</span>  <!-- Placeholder text while fetching username -->
+                {% elsif page.title %}
+                  {{ page.title | strip_html }}
+                {% else %}
+                  <br/>
+                {% endif %}
+              </h1>
+              {% if page.subtitle %}
+                {% if include.type == "page" %}
+                  <hr class="small">
+                  <span class="{{ include.type }}-subheading">{{ page.subtitle | strip_html }}</span>
+                {% else %}
+                  <h2 class="{{ include.type }}-subheading">{{ page.subtitle | strip_html }}</h2>
+                {% endif %}
+              {% endif %}
+              
+              {% if include.type == "post" %} 
+                {% if page.author %}
+                  By <strong>{{ page.author | strip_html }}</strong><br>
+                {% endif %}
+                <span class="post-meta">Posted on {{ page.date | date: date_format }}</span>
+                {% if page.last-updated %}
+                  <span class="post-meta">
+                    <span class="d-none d-md-inline middot">&middot;</span>
+                    Last updated {{ page.last-updated | date: date_format }}
+                  </span>
+                {% endif %}
+                {% if page.readtime %}
+                  {% include readtime.html %}
+                {% endif %}
+              {% endif %}
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+    {% endif %}
+    {% if page.cover-img %}<span class='img-desc'></span>{% endif %}
   </div>
+
+  {% if page.header-extra %}
+    {% for file in page.header-extra %}
+      {% include {{ file }} %}
+    {% endfor %}
   {% endif %}
-  {% if page.cover-img %}<span class='img-desc'></span>{% endif %}
-</div>
-
-{% if page.header-extra %}
-  {% for file in page.header-extra %}
-    {% include {{ file }} %}
-  {% endfor %}
-{% endif %}
-
 </header>
+
+<script>
+document.addEventListener("DOMContentLoaded", async () => {
+  const titleElement = document.getElementById("page-title");
+  const uuid = "{{ page.uuid }}"; // Access the UUID from Liquid
+
+  if (uuid) {
+    const loadingTitle = document.getElementById("loading-title");
+    loadingTitle.textContent = "Loading..."; // Placeholder text
+
+    try {
+      const response = await fetch(`https://api.ashcon.app/mojang/v2/user/${uuid}`);
+      if (!response.ok) throw new Error("Failed to fetch username");
+
+      const data = await response.json();
+      titleElement.textContent = data.username; // Set title to Minecraft username
+      loadingTitle.style.display = 'none'; // Hide loading text
+    } catch (error) {
+      console.error("Error fetching username:", error);
+      titleElement.textContent = "Unknown Player"; // Fallback title if error occurs
+      loadingTitle.style.display = 'none'; // Hide loading text
+    }
+  }
+});
+</script>
