@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[M7 Healer POV | Hypixel Skyblock Dungeons"
+title: "[5:12] [Healer] Suicune3"
 subtitle: RIPinPepperonis, Rwob, NEMANJAAAAA, charwies, Murtbruh
 tags: [pb-run, healer, legit-run]
 time: 312
