@@ -43,7 +43,7 @@ layout: page
       {% endif %}
 
       <a href="{{ post.url | absolute_url }}">
-        <h2 class="post-title">{{ post.title | strip_html }}</h2>
+        <h2 class="post-title" id="title-{{ forloop.index }}">Loading...</h2>
 
         {% if post.subtitle %}
           <h3 class="post-subtitle">
@@ -51,6 +51,18 @@ layout: page
           </h3>
         {% endif %}
       </a>
+
+      {% if post.uuid %}
+        <script>
+          fetch(`https://api.mojang.com/user/profiles/{{ post.uuid }}/names`)
+            .then(response => response.json())
+            .then(data => {
+              let ign = data[data.length - 1].name; // Get the latest IGN
+              document.getElementById("title-{{ forloop.index }}").innerText = ign;
+            })
+            .catch(error => console.error('Error fetching IGN:', error));
+        </script>
+      {% endif %}
 
       {% if post.author %}
         <span>By <strong>{{ post.author | strip_html }}</strong></span>
