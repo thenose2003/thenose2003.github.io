@@ -5,14 +5,14 @@ layout: page
 {{content}}
 
 {% assign posts = paginator.posts | default: site.posts %}
-{% assign player_name = page.title %}
+{% assign player_uuid = page.uuid %}
 
 {% assign legit_posts = posts | where: "tags", "legit-run" %}
 {% assign tas_posts = posts | where: "tags", "tas-run" %}
 {% assign run_posts = legit_posts | concat: tas_posts %}
 
-{% if player_name %}
-  {% assign filtered_posts = run_posts | where: "players", player_name %}
+{% if player_uuid %}
+  {% assign filtered_posts = run_posts | where: "players", player_uuid %}
 {% else %}
   {% assign filtered_posts = run_posts %}
 {% endif %}
