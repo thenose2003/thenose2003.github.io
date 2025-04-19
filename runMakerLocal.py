@@ -75,8 +75,11 @@ def find_filename_by_uuid(filenames, uuid):
             return name
     return None
 
-def generate_post(video_url, igns, role="[Mage]", tags=["casual", "mage", "legit-run"]):
+def generate_post(video_url, igns, time, role="UNKNOWN", tags=["casual", "legit-run"]):
     uuids = [get_uuid(ign) for ign in igns]
+    if role not in tags:
+        tags.append(role)
+        
     if None in uuids:
         print("Aborting due to missing UUIDs.")
         return
@@ -121,7 +124,7 @@ tags: [legit, player]
 
     post_md = f"""---
 layout: post
-title: "[{title_time}] {role} {igns[0]}"
+title: "[{time}] [{role}] {igns[0]}"
 subtitle: {subtitle}
 tags: [{tag_str}]
 time: {start_time}
@@ -135,13 +138,15 @@ players: [{uuid_str}]
 {links}
 """
 
-    with open(f"_posts/{datetime.now().strftime('%Y-%m-%d')}-{igns[0]}-{sanitize_filename(video_title)}", "w", encoding="utf-8") as f:
+    with open(f"_posts/{datetime.now().strftime('%Y-%m-%d')}-{igns[0]}-{sanitize_filename(video_title)}.md", "w", encoding="utf-8") as f:
         f.write(post_md)
 
     print(f"Markdown file generated: {datetime.now().strftime('%Y-%m-%d')}-{sanitize_filename(video_title)}")
 
 # Example usage
 if __name__ == "__main__":
+    time = "5:09"
+    role = "Healer" 
     youtube_link = "https://www.youtube.com/watch?v=0BFQTUrJnzc"
     igns = ["NoseThe", "bruhplane", "FiskeFillet", "Dream5", "69_Boomer"]
-    generate_post(youtube_link, igns)
+    generate_post(youtube_link, igns, time, role=role)
