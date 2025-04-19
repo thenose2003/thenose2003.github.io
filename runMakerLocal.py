@@ -77,7 +77,7 @@ def find_filename_by_uuid(filenames, uuid):
 
 def generate_post(video_url, igns, time, role="UNKNOWN", tags=["casual", "legit-run"]):
     uuids = [get_uuid(ign) for ign in igns]
-    if role not in tags:
+    if role.lower() not in tags:
         tags.append(role.lower())
         
     if None in uuids:
@@ -127,7 +127,7 @@ layout: post
 title: "[{time}] [{role}] {igns[0]}"
 subtitle: {subtitle}
 tags: [{tag_str}]
-time: {start_time}
+time: {int(time.split(':')[0])*60 + int(time.split(':')[1])}
 players: [{uuid_str}]
 ---
 
@@ -147,6 +147,11 @@ players: [{uuid_str}]
 if __name__ == "__main__":
     time = "5:09"
     role = "Healer" 
-    youtube_link = "https://www.youtube.com/watch?v=0BFQTUrJnzc"
+    
+    # pb-run 
+    # tas-run
+    tags = ["casual", "legit-run"]
+    
+    youtube_link = "https://youtu.be/0BFQTUrJnzc?si=fcO9CR6GGgmjoYjo"
     igns = ["NoseThe", "bruhplane", "FiskeFillet", "Dream5", "69_Boomer"]
-    generate_post(youtube_link, igns, time, role=role)
+    generate_post(youtube_link, igns, time, role=role, tags=tags)
