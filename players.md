@@ -1,11 +1,6 @@
 ---
-layout: page
-title: Players
-subtitle: A list of players linked to their runs and history.
+layout: filtered
+title: "Players"
+subtitle: "A place to find players and the runs they were a part of."
+tag_filter: "player"
 ---
-
-| IGN                | GOAT STATUS |
-| ------------------ | --- |
-| NoseThe            | [ ] |
-| Premeatheouse      | [x] |
-| RIPInPepperonis    | [x] |

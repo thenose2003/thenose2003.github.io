@@ -1,14 +1,8 @@
 ---
 layout: page
 title: Rules
-subtitle: Rules for how things fall into categories
+subtitle: The place to see the rules for qualifying for different categories.
 ---
-
-# Cheater leaderboard
-Everything works for this one.  
-People can cheat their hearts out on this one.
-
-# Legit leaderboard
-No modifications that alter packets or do things that would otherwise have to be done manually.  
-SA counts at cheater for this leaderboard sorry. Hypixel should really update their side to make the terms feel better for most players.
-Individual Players will only be considered by a pov from them cheating (I feel like this isnt strong enough but idk prob will change later)
+Things that change your inputs or do them for you are not allowed. So things such as SA terms are also counted as cheats.
+---
+POVs marked as legit are just legit as far as you can see in the run. I know you can't catch most cheats with this. Oh well thats just how im doing it.

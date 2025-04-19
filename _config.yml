@@ -10,30 +10,27 @@
 ############################
 
 # Name of website
-title: My website
+title: M7 Leaderboard
 
 # Your name to show in the footer
-author: "The Nose"
+author: NoseThe
 
 ###############################################
 # --- List of links in the navigation bar --- #
 ###############################################
 
 navbar-links:
-  Legit Feed: "legitfeed"
-  Cheater Feed: "cheaterfeed"
+  Legit Leaderboard: "legit-leaderboard"
+  TAS Leaderboard: "TAS-leaderboard"
   Players: "players"
-  Rules: "rules"
-  AboutMe: "aboutme"
   Resources:
-    - Tech Guides: "tech"
-    - My YouTube: "https://www.youtube.com/@NoseThe"
-    - My Discord: "https://discord.com/invite/cc9fCgB"
+    - Rules: "rules"
+    - Tech: "tech"
+    - About Me: "aboutme"
 
 ################
 # --- Logo --- #
 ################
-
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
@@ -55,16 +52,16 @@ round-avatar: true
 # You can change the order that they show up on the page by changing the order here.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
- # email: "someone@example.com"
+  # email: "someone@example.com"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
- # facebook: deanattali
+  # facebook: deanattali
   github: thenose2003
- # twitter: daattali
- # patreon: DeanAttali
+#  twitter: daattali
+#  patreon: DeanAttali
   youtube: "@NoseThe"
 #  whatsapp: 15551212
 #  medium: yourname
-  reddit: The_Nose_ # or r/yoursubreddit
+#  reddit: yourname or r/yoursubreddit
 #  linkedin: daattali
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
@@ -81,7 +78,7 @@ social-network-links:
 #  bluesky: yourname
 #  ORCID: your ORCID ID
 #  google-scholar: your google scholar
-  discord: "cc9fCgB" #or "users/userid" or "invite/invite_code"
+  discord: "zFp62qJt6e" # or "users/userid" or "invite/invite_code"
 #  kaggle: yourname
 #  hackerrank: yourname
 #  gitlab: yourname
@@ -90,7 +87,7 @@ social-network-links:
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
- rss-description: A website to keep up to date on M7 gamers gaming! DM me to submit new runs.
+rss-description: A website for keeping track of M7 runs published on YouTube.
 
 ###########################
 # --- General options --- #
@@ -105,7 +102,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-#url-pretty: "MyWebsite.com"
+# url-pretty: "MyWebsite.com"
 
 # Add the website title to the title of every page
 title-on-all-pages: true
@@ -150,6 +147,7 @@ footer-col: "#EAEAEA"
 footer-text-col: "#777777"
 footer-link-col: "#404040"
 footer-hover-col: "#0085A1"
+
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
