@@ -2,7 +2,7 @@
 layout: post
 title: "[5:11] [Archer] Fiskefillet"
 subtitle: Fiskefillet, VASSSMUS, 255z, Dream5, bruhplane
-tags: [casual, tas-run, archer]
+tags: [casual, legit-run, archer]
 time: 311
 players: [56c85a08-b722-430e-aeff-b2da42b158e8, b98f4247-e661-4787-a11c-288eb21f098a, d6eb96b1-8d8d-44c6-b0c5-f411d4158e12, dfbefb80-7d44-4872-af2f-7eb929dfb4f2, 8466d566-82cd-4e14-8e45-49ea635aaf3d]
 ---
