@@ -145,8 +145,8 @@ players: [{uuid_str}]
 
 # Example usage
 if __name__ == "__main__":
-    time = "5:20"
-    role = "Tank" 
+    time = "4:51"
+    role = "Healer" 
     
     # pb-run 
     # tas-run
@@ -154,8 +154,8 @@ if __name__ == "__main__":
     # casual
     # legit-run
 
-    tags = ["casual", "tas-run"]
+    tags = ["pb-run", "tas-run"]
     
-    youtube_link = "https://www.youtube.com/watch?v=v_T2AR7GP7I"
-    igns = ["Hayacyaa", "Optimus0811", "noopyLea", "Hzua", "aochqqn"]
+    youtube_link = "https://www.youtube.com/watch?v=E5MRuG0xRug"
+    igns = ["aochqqn", "taiyak1", "haluwu", "kirnn", "toadice"]
     generate_post(youtube_link, igns, time, role=role, tags=tags)
