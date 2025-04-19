@@ -36,8 +36,12 @@ layout: page
       {% endif %}
 
       <a href="{{ post.url | absolute_url }}">
-        <h2 class="post-title" data-uuid="{{ post.uuid }}">Loading...</h2>
-
+        {% if post.layout != 'player' %}
+          <h2 class="post-title">{{ post.title | strip_html }}</h2>
+        {% else %}
+          <h2 class="post-title" data-uuid="{{ post.uuid }}">Loading...</h2>
+        {% endif %}
+      
         {% if post.subtitle %}
           <h3 class="post-subtitle">
             {{ post.subtitle | strip_html }}

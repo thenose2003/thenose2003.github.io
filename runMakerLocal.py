@@ -78,7 +78,7 @@ def find_filename_by_uuid(filenames, uuid):
 def generate_post(video_url, igns, time, role="UNKNOWN", tags=["casual", "legit-run"]):
     uuids = [get_uuid(ign) for ign in igns]
     if role not in tags:
-        tags.append(role)
+        tags.append(role.lower())
         
     if None in uuids:
         print("Aborting due to missing UUIDs.")
