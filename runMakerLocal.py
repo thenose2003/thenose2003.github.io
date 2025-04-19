@@ -109,7 +109,7 @@ def generate_post(video_url, igns, time, role="UNKNOWN", tags=["casual", "legit-
             player_md = f"""---
 layout: player
 uuid: {uuid}
-tags: [legit, player]
+tags: [player]
 ---
 
 # Runs
