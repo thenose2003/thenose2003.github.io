@@ -1,6 +1,6 @@
 ---
 layout: leaderboard
 title: "Tech Guides"
-subtitle: "Short guides on how to do different strats and tech related to speedrunning M7"
+subtitle: "Looking for guides on how to do things you see in runs? Check out the tech forums in the discord."
 tag_filter: "tech"
 ---
