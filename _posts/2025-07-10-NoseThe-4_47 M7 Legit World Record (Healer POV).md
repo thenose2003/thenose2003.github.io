@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "[5:01] [Healer] NoseThe"
-subtitle: NoseThe, bASSv, Tackers, sillygirlfadin, SwimClass
-tags: [casual, legit-run, healer]
-time: 301
-players: [43c561aa-ed1b-4f8b-8fa6-f28a8aaafaad, 16c01f4e-a8cb-45ca-bf80-8f33800628da, ddfd4140-c366-467e-a708-7f0a453f887f, d8323c75-dfea-421e-af4e-500d6532509c, df4be1b9-7fa6-4222-b432-1ecdc367591f]
+title: "[4:47] [Healer] NoseThe"
+subtitle: NoseThe, VASSSMUS, bruhplane, Fiskefillet, Dream5
+tags: [pb-run, legit-run, healer]
+time: 287
+players: [43c561aa-ed1b-4f8b-8fa6-f28a8aaafaad, b98f4247-e661-4787-a11c-288eb21f098a, 8466d566-82cd-4e14-8e45-49ea635aaf3d, 56c85a08-b722-430e-aeff-b2da42b158e8, dfbefb80-7d44-4872-af2f-7eb929dfb4f2]
 ---
 
 # 4:47 M7 Legit World Record (Healer POV)
@@ -12,8 +12,8 @@ players: [43c561aa-ed1b-4f8b-8fa6-f28a8aaafaad, 16c01f4e-a8cb-45ca-bf80-8f338006
 
 # Players
 - [NoseThe](https://thenose2003.github.io/2025-03-06-43c561aa-ed1b-4f8b-8fa6-f28a8aaafaad)
-- [bASSv](https://thenose2003.github.io/2025-07-10-16c01f4e-a8cb-45ca-bf80-8f33800628da)
-- [Tackers](https://thenose2003.github.io/2025-04-19-ddfd4140-c366-467e-a708-7f0a453f887f)
-- [sillygirlfadin](https://thenose2003.github.io/2025-07-10-d8323c75-dfea-421e-af4e-500d6532509c)
-- [SwimClass](https://thenose2003.github.io/2025-07-10-df4be1b9-7fa6-4222-b432-1ecdc367591f)
+- [VASSSMUS](https://thenose2003.github.io/2025-03-14-b98f4247-e661-4787-a11c-288eb21f098a)
+- [bruhplane](https://thenose2003.github.io/2025-04-18-8466d566-82cd-4e14-8e45-49ea635aaf3d)
+- [Fiskefillet](https://thenose2003.github.io/2025-03-14-56c85a08-b722-430e-aeff-b2da42b158e8)
+- [Dream5](https://thenose2003.github.io/2025-04-18-dfbefb80-7d44-4872-af2f-7eb929dfb4f2)
 
