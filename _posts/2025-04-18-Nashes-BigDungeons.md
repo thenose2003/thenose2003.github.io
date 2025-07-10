@@ -2,7 +2,7 @@
 layout: post
 title: "[4:56] [Berserk] Nashes"
 subtitle: Nashes, eatplastic, 15h, Remittal, tiltedhoney
-tags: [casual, tas-run, berserk]
+tags: [casual, legit-run, berserk]
 time: 296
 players: [5acfd8fc-7e02-43f9-ab75-7c1eac739eb3, ff9c9ddb-fd48-43f9-81e0-263cc8d5da37, 5e22209b-e586-4a08-8761-aa6bde56a090, 302f1186-edfd-4910-a9c9-720f0690b111, debb9e1f-6dcb-4f5b-83c2-91fd5388bb56]
 ---

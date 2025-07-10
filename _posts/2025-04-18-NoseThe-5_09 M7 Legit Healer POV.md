@@ -2,7 +2,7 @@
 layout: post
 title: "[5:09] [Healer] NoseThe"
 subtitle: NoseThe, bruhplane, FiskeFillet, Dream5, 69_Boomer
-tags: [casual, legit-run, healer]
+tags: [casual, tas-run, healer]
 time: 309
 players: [43c561aa-ed1b-4f8b-8fa6-f28a8aaafaad, 8466d566-82cd-4e14-8e45-49ea635aaf3d, 56c85a08-b722-430e-aeff-b2da42b158e8, dfbefb80-7d44-4872-af2f-7eb929dfb4f2, d82e0f4d-6429-461d-bc96-9b7b7605666a]
 ---
